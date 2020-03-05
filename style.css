@@ -1,0 +1,172 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-size: 120%;
+	background: #F8F8FF;
+}
+
+.header {
+	width: 30%;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	background: #4e7c96;
+	border-bottom: none;
+	margin: 50px auto 0px;
+	border: 1px solid #B0C4DE;
+	border-radius: 10px 10px 0px 0px;	
+}
+
+form, .content {
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+	margin: 3px;
+	display: block;
+	text-align: left;
+	font-size: calc(12px + 1vmin);
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+.input-group input {
+	width: 93%;
+	height: 30px;
+	outline: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-style: italic;
+	border: 1px solid gray;
+	font-size: calc(12px + 1vmin);
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+.btn {
+	border: none;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	border-radius: 5px;
+	background: #4e7c96;
+	padding: 2% 7% 2% 7%;
+	font-size: calc(12px + 1vmin);
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+.btn:hover{
+  background-color: #29536b;
+  transition: all 0.5s ease;
+}
+
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	margin-bottom: 20px;
+	border: 1px solid #3c763d;
+	font-size: calc(12px + 1vmin);
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+.buttons_1{
+	color:#ffffff; 
+	outline: none;
+	border-radius: 1%;
+	font-weight: bold;
+	text-decoration: none; 
+	padding: 0.7% 2% 0.7% 2%;
+	background-color: #4a4a4a;
+	font-size: calc(12px + 1vmin);
+	box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.4);
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+.buttons_1:hover{
+  background-color: #363636;
+  transition: all 0.5s ease;
+}
+
+.header_table{
+	font-weight: bold;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	border: solid black 1px;
+	border-collapse: collapse;
+	border: solid black 1px;
+	font-size: calc(12px + 1vmin);
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+.gray_row{
+	background-color: #d1d1d1;
+}
+
+.white_row{
+	background-color: #ffffff;
+}
+
+.table{
+	width: 100%;
+	text-align: center;
+	font-size: calc(12px + 1vmin);
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+.panel{
+	width: 100%;
+	border-radius: 0.5%;
+	padding: 1% 1% 1% 1%;
+	border:solid black 1px;
+	background-color: #ffffff;
+}
+
+.headers{
+	font-weight: bold;
+	text-align:center;
+	font-size: calc(1vw + 14px + 1vmin);
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+.paragraphs{
+	text-align:center;
+	font-size: calc(12px + 1vmin);
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+.buttons_2{
+	color:#ffffff; 
+	cursor: pointer;
+	border: none;
+	outline: none;
+	border-radius: 1%;
+	font-weight: bold;
+	text-decoration: none; 
+	padding: 0.7% 2% 0.7% 2%;
+	background-color: #3fa672; 
+	font-size: calc(12px + 1vmin);
+	box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.4);
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+.buttons_2:hover{
+  background-color: #2ea368;
+  transition: all 0.5s ease;
+}
